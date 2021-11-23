@@ -421,34 +421,9 @@ main {
   color: #99A0AF;
 }
 .feedback .feedback__wrapper #tab__feedback .feedback__form form > label input[type=checkbox] {
-  display: none;
-}
-.feedback .feedback__wrapper #tab__feedback .feedback__form form > label input[type=checkbox] + span {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 18px;
-  height: 16px;
-  border: 2px solid #5E5E5E;
-  border-radius: 4px;
+  width: auto;
+  margin-top: 2px;
   margin-right: 18px;
-}
-.feedback .feedback__wrapper #tab__feedback .feedback__form form > label input[type=checkbox] + span svg path {
-  stroke: transparent;
-}
-.feedback .feedback__wrapper #tab__feedback .feedback__form form > label input[type=checkbox]:checked + span svg path {
-  stroke: #5E5E5E;
 }
 .feedback .feedback__wrapper #tab__feedback .feedback__form form button {
   width: 212px;

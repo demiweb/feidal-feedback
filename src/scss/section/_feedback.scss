@@ -212,6 +212,7 @@
               flex-direction: column;
               margin-bottom: 30px;
 
+
               span {
                 font-size: 14px;
               }
@@ -316,33 +317,9 @@
             }
 
             input[type='checkbox'] {
-              display: none;
-            }
-
-            input[type='checkbox'] + span {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              box-sizing: border-box;
-              width: 18px;
-              height: 16px;
-              border: 2px solid #5E5E5E;
-              border-radius: 4px;
+              width: auto;
+              margin-top: 2px;
               margin-right: 18px;
-
-              svg {
-                path {
-                  stroke: transparent;
-                }
-              }
-            }
-
-            input[type='checkbox']:checked + span {
-              svg {
-                path {
-                  stroke: #5E5E5E;
-                }
-              }
             }
           }
 
