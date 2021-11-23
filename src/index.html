@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Feidal</title>
+</head>
+<body>
+<main>
+    <section class="feedback">
+        <div class="container">
+            <ul class="tabs">
+                <li>
+                    <a href="#tab__description" class="active">
+                        Опис
+                    </a>
+                </li>
+                <li>
+                    <a href="#tab__feedback">
+                        Відгуки <span class="feedback__quantity"></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="feedback__wrapper">
+                <div id="tab__description" class="pan visible">
+                    Опис
+                </div>
+                <div id="tab__feedback" class="pan">
+                    <div class="feedback__reviews">
+                        <h2>
+                            <span class="feedback__quantity"></span> відгуків для Mattlatex латексна фарба
+                        </h2>
+                        <div class="buyer__review">
+                            <div class="feedback__icon">
+                                <img src="img/buyer_icon.png" alt="icon">
+                            </div>
+                            <div class="feedback__content">
+                                <div class="head">
+                                    <span class="name">Марія Петронюк</span>
+                                    <span class="date">15.11.2021</span>
+                                </div>
+                                <ul class="rating">
+                                    <li data-stars="&#9733; &#9733;">
+                                        Ціна
+                                    </li>
+                                    <li data-stars="&#9733; &#9733; &#9733;">
+                                        Якість
+                                    </li>
+                                    <li data-stars="&#9733; &#9733; &#9733; &#9733;">
+                                        Зручність нанесення
+                                    </li>
+                                    <li data-stars="&#9733; &#9733; &#9733; &#9733; &#9733;">
+                                        Очікуванний результат
+                                    </li>
+                                </ul>
+                                <div class="text">
+                                    Отличная Краска за свои деньги! По мультифинишу раскатал 45м2 в 2 слоя(ещё немного
+                                    осталось) на второй день покраски уже пришлось мыть(испачкали плиточным клеем) и Краска
+                                    хорошо себя показала! Рекомендую
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seller__review">
+                            <div class="feedback__icon">
+                                <img src="img/seller_icon.png" alt="icon">
+                            </div>
+                            <div class="feedback__content">
+                                <div class="head">
+                                    <span class="name">FEIDAL</span>
+                                    <span class="date">15.11.2021</span>
+                                </div>
+                                <div class="text">
+                                    Марія, раді, що ви залишилися задовлені! Дякуємо за замовлення!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="show__feedback-form">
+                        Залишити свій відгук
+                        <svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.14645 16.3536C4.34171 16.5488 4.65829 16.5488 4.85355 16.3536L8.03553 13.1716C8.2308 12.9763 8.2308 12.6597 8.03553 12.4645C7.84027 12.2692 7.52369 12.2692 7.32843 12.4645L4.5 15.2929L1.67157 12.4645C1.47631 12.2692 1.15973 12.2692 0.964466 12.4645C0.769203 12.6597 0.769203 12.9763 0.964466 13.1716L4.14645 16.3536ZM4 -2.18557e-08L4 16L5 16L5 2.18557e-08L4 -2.18557e-08Z" fill="white"/>
+                        </svg>
+                    </button>
+                    <div class="feedback__form">
+                        <h2>
+                            Залишіть свій відгук
+                        </h2>
+                        <p>
+                            Ваша e-mail адреса не оприлюднюватиметься. Обов’язкові поля позначені *
+                        </p>
+                        <form>
+                            <div>
+                                <div>
+                            <span>
+                                Ціна*
+                            </span>
+                                    <div>
+                                        <input type="radio" name="price" id="price-5" value="5">
+                                        <label for="price-5"></label>
+                                        <input type="radio" name="price" id="price-4" value="4">
+                                        <label for="price-4"></label>
+                                        <input type="radio" name="price" id="price-3" value="3">
+                                        <label for="price-3"></label>
+                                        <input type="radio" name="price" id="price-2" value="2">
+                                        <label for="price-2"></label>
+                                        <input type="radio" name="price" id="price-1" value="1" required>
+                                        <label for="price-1"></label>
+                                    </div>
+                                </div>
+                                <div>
+                            <span>
+                                Зручність нанесення*
+                            </span>
+                                    <div>
+                                        <input type="radio" name="convenience" id="convenience-5" value="5">
+                                        <label for="convenience-5"></label>
+                                        <input type="radio" name="convenience" id="convenience-4" value="4">
+                                        <label for="convenience-4"></label>
+                                        <input type="radio" name="convenience" id="convenience-3" value="3">
+                                        <label for="convenience-3"></label>
+                                        <input type="radio" name="convenience" id="convenience-2" value="2">
+                                        <label for="convenience-2"></label>
+                                        <input type="radio" name="convenience" id="convenience-1" value="1" required>
+                                        <label for="convenience-1"></label>
+                                    </div>
+                                </div>
+                                <div>
+                            <span>
+                                Якість*
+                            </span>
+                                    <div>
+                                        <input type="radio" name="quality" id="quality-5" value="5">
+                                        <label for="quality-5"></label>
+                                        <input type="radio" name="quality" id="quality-4" value="4">
+                                        <label for="quality-4"></label>
+                                        <input type="radio" name="quality" id="quality-3" value="3">
+                                        <label for="quality-3"></label>
+                                        <input type="radio" name="quality" id="quality-2" value="2">
+                                        <label for="quality-2"></label>
+                                        <input type="radio" name="quality" id="quality-1" value="1" required>
+                                        <label for="quality-1"></label>
+                                    </div>
+                                </div>
+                                <div>
+                            <span>
+                                Очікуванний результат*
+                            </span>
+                                    <div>
+                                        <input type="radio" name="result" id="result-5" value="5">
+                                        <label for="result-5"></label>
+                                        <input type="radio" name="result" id="result-4" value="4">
+                                        <label for="result-4"></label>
+                                        <input type="radio" name="result" id="result-3" value="3">
+                                        <label for="result-3"></label>
+                                        <input type="radio" name="result" id="result-2" value="2">
+                                        <label for="result-2"></label>
+                                        <input type="radio" name="result" id="result-1" value="1" required>
+                                        <label for="result-1"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <label>
+                                Ім’я *
+                                <input type="text" required placeholder="Марія">
+                            </label>
+                            <label>
+                                E-mail *
+                                <input type="email" required placeholder="Mariaaa3073@gmail.commm">
+                            </label>
+                            <label>
+                                Ваш відгук *
+                                <textarea
+                                        placeholder="Фарба якісна. Хлопці затонували. Наноситься цілком зручно."
+                                        required
+                                ></textarea>
+                            </label>
+                            <label>
+                                <input type="checkbox" required>
+                                <span>
+                                <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.68951 3.24995L4.06351 5.62295L8.80951 0.876953" stroke="#5E5E5E"
+                                          stroke-width="1.5" stroke-linecap="round"
+                                          stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                                Зберегти моє ім'я, e-mail, та адресу сайту в цьому браузері для моїх подальших коментарів.
+                            </label>
+                            <button type="submit" class="submit">
+                                Надіслати
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.min.js"></script>
+</main>
+</body>
+</html>
